@@ -26,7 +26,6 @@ export class DirectionService implements IDirectionService {
     const split = commands.split('')
     let listOfCommands: Command[] = []
     split.forEach(char => {
-      console.log(char)
       switch(char) {
         case 'F':
           listOfCommands.push(Command.FORWARD)
@@ -42,8 +41,6 @@ export class DirectionService implements IDirectionService {
           break;
       }
     })
-
-    console.log(listOfCommands)
 
     return listOfCommands
 
