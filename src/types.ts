@@ -5,9 +5,9 @@ export interface Position {
 }
 
 export enum Direction {
-  NORTH, EAST, SOUTH, WEST
+  NORTH = "N", EAST = "E", SOUTH = "S", WEST = "W"
 }
 
 export enum Command {
-  FORWARD, BACKWARDS, ROTATE_LEFT, ROTATE_RIGHT
+  FORWARD = "F", BACKWARDS = "B", ROTATE_LEFT = "L", ROTATE_RIGHT = "R"
 }
