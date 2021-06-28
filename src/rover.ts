@@ -1,6 +1,6 @@
 import { Command, Direction, Position } from "./types";
 
-export class Hover  {
+export class Rover  {
 
   public position: Position
 
